@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFF0F6;
+}
+
+.header-bg {
+    width: 100%;
+    height: 80vh;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.icon-ham {
+    display: none;
+}
+
+nav .logo p {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+nav .btn-container {
+    display: flex;
+    gap: 25px;
+}
+
+nav .btn-container button {
+    border: none;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    background: none;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 90px 170px;
+    /* position: relative; */
+}
+
+.hero-container h1 {
+    color: #091E42;
+    font-size: 2.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.hero-container p {
+    color: #344563;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300px;
+}
+
+.hero-container h3 {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+}
+
+.hero-container .image {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-container .image img {
+    width: 15px;
+}
+
+.half-circle img{
+    width: 80px;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.Rect img{
+    width: 80px;
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    /* height: 80vh; */
+}
+
+.hero-section {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    /* height: 400px; */
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.hero-section .image img {
+    width: 350px;
+}
+
+.hero-section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section .content h1 {
+    color: #091E42;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.hero-section .content h3 {
+    color: #091E42;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section .content i {
+    font-size: 10px;
+    color: #95a0b4;
+}
+
+.hero-section .content p {
+    color: #344563;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300px;
+}
+
+.hero-section .content .canopy {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section .content button {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    background-color: #EBEBFF;
+    border: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.hero-section .content .java {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: #EBEBFF;
+}
+
+.hero-section .content .btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section .content .project h3 {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section .content .project {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #6070FF;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.hero2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    /* height: 80vh; */
+}
+
+.hero-section2 {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    /* height: 400px; */
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.hero-section2 .image img {
+    width: 350px;
+}
+
+.hero-section2 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section2 .content h1 {
+    color: #091E42;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.hero-section2 .content h3 {
+    color: #091E42;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section2 .content i {
+    font-size: 10px;
+    color: #95a0b4;
+}
+
+.hero-section2 .content p {
+    color: #344563;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300px;
+}
+
+.hero-section2 .content .canopy {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section2 .content button {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    background-color: #EBEBFF;
+    border: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.hero-section2 .content .java {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: #EBEBFF;
+}
+
+.hero-section2 .content .btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section2 .content .project h3 {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section2 .content .project {
+    width: 110px;
+    height: 40px;
+    border: 1px solid #6070FF;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    /* height: 80vh; */
+}
+
+.hero-section3 {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    /* height: 400px; */
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.hero-section3 .image img {
+    width: 350px;
+}
+
+.hero-section3 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section3 .content h1 {
+    color: #091E42;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.hero-section3 .content h3 {
+    color: #091E42;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section3 .content i {
+    font-size: 10px;
+    color: #95a0b4;
+}
+
+.hero-section3 .content p {
+    color: #344563;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300px;
+}
+
+.hero-section3 .content .canopy {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section3 .content button {
+    color: #6070FF;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+    background-color: #EBEBFF;
+    border: none;
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.hero-section3 .content .java {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background: #EBEBFF;
+}
+
+.hero-section3 .content .btn {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-section3 .content .project h3 {
+    color: white;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section3 .content .project {
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    background: #4053FC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero11 {
+    background-color: white;
+    width: 100%;
+    margin-top: 70px;
+    border-top-right-radius: 50px;
+}
+
+.hero-section11 {
+    display: flex;
+    padding: 30px 40px;
+    border-radius: 10px;
+    gap: 80px;
+}
+
+.hero-section11 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section11 .content h1 {
+    color: #091E42;
+    font-size: 2.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+.hero-section11 .content p {
+    color: #344563;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300px;
+}
+
+.hero-section11 .content h3 {
+    color: #8893fc;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+}
+
+.hero-section11 .content .image {
+    display: flex;
+    gap: 10px;
+}
+
+.hero-section11 .content .image img {
+    width: 15px;
+}
+
+.hero-section11 .content .project {
+    width: 120px;
+    height: 45px;
+    border: 1px solid #6070FF;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.section2 p {
+    color: #344563;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+}
+
+.section2 .icon {
+    display: flex;
+    gap: 20px;
+}
+
+.section2 .icon .icon1 img {
+    width: 35px;
+}
+
+.section2 .icon .icon1 p {
+    color: #344563;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400px;
+}
+
+.section2 .icon .icon1 {
+    background-color: #EFF0F6;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.section2 .work {
+    display: flex;
+    gap: 540px;
+}
+
+.section2 i {
+    font-size: 10px;
+}
+
+.section2 .works {
+    display: flex;
+    gap: 600px;
+}
+
+.section2 .line {
+    border-bottom: 1px solid rgb(171, 166, 162);
+}
+
+footer {
+    background: #6070FF;
+    height: 500px;
+    width: 100%;
+    border-top-left-radius: 50px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    gap: 20px;
+}
+
+footer h2 {
+    color: white;
+    font-size: 1.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-weight: 200px;
+    text-align: center;
+    word-spacing: 2px;  
+}
+
+footer .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+footer .form input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+}
+
+footer .form .comment input {
+    width: 300px;
+    height: 100px;
+}
+
+footer .form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .form .btn button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: #4053FC;
+}
+
+
+
+@media (max-width: 700px) {
+    .icon-ham {
+        display: block;
+        width: 25px;
+        height: 25px;
+    }
+
+    nav .btn-container {
+        display: none;
+    }
+    .hero{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-container {
+        padding: 90px 16px;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .content{
+        padding: 10px 0px;
+    }
+
+    .header-bg {
+
+        height: 100vh;
+    }
+
+    .hero-section .image , 
+    .hero-section .image img {
+
+        width: 100%;
+    }
+
+    
+    
+    .hero2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-container2 {
+        padding: 90px 16px;
+    }
+
+    .hero-section2 {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .content{
+        padding: 10px 0px;
+    }
+
+    .header-bg {
+
+        height: 100vh;
+    }
+
+    .hero-section2 .image , 
+    .hero-section2 .image img {
+
+        width: 100%;
+    }
+
+
+
+    .hero3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-container3 {
+        padding: 90px 16px;
+    }
+
+    .hero-section3 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        width: 100%;
+    }
+    .content{
+        padding: 10px 0px;
+    }
+
+    .header-bg {
+
+        height: 100vh;
+    }
+
+    .hero-section3 .image , 
+    .hero-section3 .image img {
+
+        width: 100%;
+    }
+    .hero-section11{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 .works {
+    gap: 62%;
+}
+    .section2 .work {
+    gap: 50%;
+}
+.section2 .line {
+    width: 80%;
+}
+footer h2 {
+    font-size: 40px;  
+}
+
+footer p {
+    font-size: 20px;
+}
+}
