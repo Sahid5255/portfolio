@@ -528,7 +528,7 @@ nav .btn-container button {
 
 footer {
     background: #6070FF;
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
     border-top-left-radius: 50px;
 }
